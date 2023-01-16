@@ -5,6 +5,9 @@ This is an ongoing playground, so expect things to be likely incomplete and part
 # Steps for running
 
 1. setup your Foundry https://book.getfoundry.sh/
-2. leave anvil running in a terminal
-3. Run the script: `forge script script/king.s.sol:KingScript --fork-url http://localhost:8545 --broadcast --sender $SENDER`
-4. Enjoy
+2. make an `.env` file according to `env.template`
+3. leave anvil running in a terminal
+4. Run the script: `forge script script/king.s.sol:KingScript --fork-url http://localhost:8545 --broadcast --sender $SENDER`
+5. Enjoy
+
+If you need help creating a wallet, check out https://github.com/culda/rustwallet
