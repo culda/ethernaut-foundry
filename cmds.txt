@@ -1,1 +1,2 @@
 cast send 0xb39B5bEa02426c0aEdd5743a99C4f806A9B0c7cD --rpc-url $GOERLI_RPC_URL --private-key $PRIVATE_KEY "guess()" --gas-limit 80000 --gas-price 2gwei
+forge script script/king.s.sol:KingScript --fork-url http://localhost:8545 --broadcast --sender $SENDER
